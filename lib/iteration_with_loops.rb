@@ -4,8 +4,16 @@ def join_nested_strings(src)
 
 
 count = 0 
+empty_string = ""
 while count < src.length do 
   inner_count = 0 
   while inner_count < src[count] 
   if src[count][inner_count] = String 
+    empty_string += src[count][inner_count]
+  end
+  inner_count += 1 
+end
+count += 1 
+end 
+
 end
