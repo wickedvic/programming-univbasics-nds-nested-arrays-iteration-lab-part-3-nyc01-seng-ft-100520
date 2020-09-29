@@ -9,7 +9,7 @@ while count < src.length do
   inner_count = 0 
   while inner_count < src[count].length do 
   if src[count][inner_count] = String 
-    empty_string = empty_string + src[count][inner_count]
+    empty_string += src[count][inner_count] + " "
   end
   inner_count += 1 
 end
